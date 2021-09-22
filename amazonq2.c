@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    printf("Enter the sixe of the matrix");
+    printf("Enter the size of the matrix");
     scanf("%d",&n);
     int a[n][n];
     for(int i=0;i<n;i++)
