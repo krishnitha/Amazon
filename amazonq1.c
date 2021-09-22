@@ -42,17 +42,17 @@ int search(int arr[], int n, int key)
 int main()
 {
 	int n;
-    printf("Enter the size of the matrix\n");
-    scanf("%d",&n);
-    int arr1[n];
-    printf("Enter the array elements\n");
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&arr1[i]);
-    }
+    	printf("Enter the size of the matrix\n");
+    	scanf("%d",&n);
+	int arr1[n];
+	printf("Enter the array elements\n");
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",&arr1[i]);
+	}
 	printf("Enter the key value\n");
 	int key;
-    scanf("%d",&key);
+    	scanf("%d",&key);
 	printf("Index of the element is : %d",search(arr1, n, key));
 	return 0;
 }
